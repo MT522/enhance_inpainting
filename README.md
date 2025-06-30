@@ -1,4 +1,4 @@
-# 🔧 Fine-Tuning BLIP for Image Quality Metrics Regression (SSIM, PSNR, CLIP)
+# A Transformer-Based Generalization Pipeline for Inpainting Models
 
 This project fine-tunes a [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) model to **generate better inpainting captions**.
 
