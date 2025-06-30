@@ -1,9 +1,8 @@
 # 🔧 Fine-Tuning BLIP for Image Quality Metrics Regression (SSIM, PSNR, CLIP)
 
-This project fine-tunes a [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) model to **regress image quality metrics** — specifically **SSIM**, **PSNR**, and **CLIP score** — from images. The fine-tuning happens in two stages:
+This project fine-tunes a [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base) model to **generate better inpainting captions**.
 
-1. **Train a custom MLP head** to predict metrics from BLIP's features.
-2. **Fine-tune BLIP's internal layers** (e.g., text decoder or vision encoder) for improved performance.
+The preprint of the paper can be reviewed in [this link](https://github.com/MT522/enhance_inpainting/blob/main/A%20Transformer-Based%20Generalization%20Pipeline%20for%20Inpainting%20Models.pdf).
 
 ## 📦 Requirements
 
